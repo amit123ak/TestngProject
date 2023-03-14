@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<listeners>
+<listener class-name="com.screenshot.result.ITestListnerClass"/>
+</listeners>
+  <test name="Test1">
+    <classes>
+ 
+        <class name="com.screenshot.result.TestFaceBookTest"/>
+        <methods>
+			<include name="LoginFaceBook"/>
+		</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
