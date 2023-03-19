@@ -3,18 +3,6 @@
 <suite parallel="none" name="Failed suite [Default suite]">
   <test parallel="none" name="Default test(failed)">
     <classes>
-      <class name="TC2">
-        <methods>
-          <include name="afterClass"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="afterSuite"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="beforeSuite"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- TC2 -->
       <class name="com.screenshot.result.TestFaceBookTest">
         <methods>
           <include name="LoginFaceBook"/>
